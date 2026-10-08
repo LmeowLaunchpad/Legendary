@@ -48,13 +48,13 @@ Theorem 1.1 provides the tiling-equivalence lift from a quotient of a lattice to
 \qquad(a,b,c)\longmapsto(a,b,c\bmod Q).
 ```
 
-The finding checks that the finite construction can be performed with the input-dependent integer $Q$. It does not assert a new general dimension-lowering theorem or apply this lift to an arbitrary finite group with unbounded generator rank.
+The finding checks that the finite construction can be performed with the input-dependent integer $`Q`$. It does not assert a new general dimension-lowering theorem or apply this lift to an arbitrary finite group with unbounded generator rank.
 
 <a id="s4"></a>
 
 ## S4 · Bhattacharya: the dimension-two decidability boundary
 
-**Siddhartha Bhattacharya.** *Periodicity and decidability of tilings of $\mathbb Z^2$*. **arXiv:1602.05738v1**, February 18, 2016.
+**Siddhartha Bhattacharya.** *Periodicity and decidability of tilings of $`\mathbb Z^2`$*. **arXiv:1602.05738v1**, February 18, 2016.
 
 - [Versioned record](https://arxiv.org/abs/1602.05738v1).
 - [Versioned full text](https://arxiv.org/html/1602.05738v1).
@@ -71,7 +71,7 @@ Theorem 1.1 and Corollary 1.2 establish periodicity and decidability for a singl
 - [Author-hosted PDF](https://xliu2022.github.io/Unpolished_Manuscripts/Undecidability%20of%20translational%20monotilings%20in%20fixed%20dimension.pdf).
 - [Author's publications and research-notes page](https://xliu2022.github.io/).
 
-Theorem 1.1 already claims undecidability for one tile of the whole lattice in every fixed dimension above a sufficiently large constant. Section 6 uses a group with free part $\mathbb Z^4$; Section 7 gives an explicit large dimension bound. This is essential prior-claim context: Finding 002 does **not** claim the first fixed-dimensional monotiling undecidability result.
+Theorem 1.1 already claims undecidability for one tile of the whole lattice in every fixed dimension above a sufficiently large constant. Section 6 uses a group with free part $`\mathbb Z^4`$; Section 7 gives an explicit large dimension bound. This is essential prior-claim context: Finding 002 does **not** claim the first fixed-dimensional monotiling undecidability result.
 
 The PDF is mutable. Its printed date is not an independently established first-public-upload date. The author's page places the work among preliminary research notes, under a general notice that some entries have not been fully polished or human-verified. Its complete proof was not independently certified in this investigation, and Finding 002 does not depend on its theorem. These qualifications do not erase its priority-relevant claim.
 

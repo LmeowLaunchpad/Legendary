@@ -11,7 +11,7 @@ Research by **Roger Malcolm III**, using **GPT-6**.
 | Finding ID | `002` |
 | Author | Roger Malcolm III |
 | Research assistance | GPT-6 |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Research date | October 8, 2026 |
 | First published | October 8, 2026 |
 | Mathematical status | Proposed theorem; complete proof draft supplied |
@@ -25,7 +25,7 @@ Research by **Roger Malcolm III**, using **GPT-6**.
 
 There is no algorithm that, for every finite nonempty shape in the three-dimensional integer lattice, always terminates and correctly decides whether translated copies of that shape cover the entire lattice exactly once.
 
-More precisely, the proof draft gives a total computable map from a finite domino system $\mathcal R$ to a finite nonempty set $T_{\mathcal R}\subset\mathbb Z^3$ such that
+More precisely, the proof draft gives a total computable map from a finite domino system $`\mathcal R`$ to a finite nonempty set $`T_{\mathcal R}\subset\mathbb Z^3`$ such that
 
 ```math
 \begin{aligned}
@@ -36,9 +36,9 @@ A\oplus T_{\mathcal R}=\mathbb Z^3.
 \end{aligned}
 ```
 
-Here $A\oplus T=\mathbb Z^3$ means that every lattice point has exactly one representation as $a+t$, with $a\in A$ and $t\in T$. The shape supplied to the algorithm varies with the input; every individual instance uses **one tile type**. Copies have the same orientation, translations are integer vectors, and the shape may be disconnected.
+Here $`A\oplus T=\mathbb Z^3`$ means that every lattice point has exactly one representation as $`a+t`$, with $`a\in A`$ and $`t\in T`$. The shape supplied to the algorithm varies with the input; every individual instance uses **one tile type**. Copies have the same orientation, translations are integer vectors, and the shape may be disconnected.
 
-The proposed decision problem is $\Pi^0_1$-complete: non-tileability has a finite obstruction that can eventually be found, while the full decision problem can encode non-halting computations. Since translational monotiling is decidable in dimensions one and two, dimension three would be the sharp boundary. [Proof](proof.md) · [Two-dimensional baseline](references.md#s4).
+The proposed decision problem is $`\Pi^0_1`$-complete: non-tileability has a finite obstruction that can eventually be found, while the full decision problem can encode non-halting computations. Since translational monotiling is decidable in dimensions one and two, dimension three would be the sharp boundary. [Proof](proof.md) · [Two-dimensional baseline](references.md#s4).
 
 ## In plain language
 
@@ -108,8 +108,9 @@ The source construction is pinned to OpenAI math commit [`adc7f1241b42e322a64518
 
 Roger Malcolm III directed the investigation and the development of this finding. Research, drafting, source inspection, and separate adversarial checks were performed using GPT-6. These were multiple passes within the same AI-assisted investigation, not independent external peer review. The [verification record](verification.md) documents the checks and their limits.
 
-**Suggested citation:** Roger Malcolm III. *Undecidability of translational monotiling in dimension three.* Legendary, Finding 002, version 0.1.0, 2026. Research assistance: GPT-6. [Repository note](https://github.com/LmeowLaunchpad/Legendary/tree/main/findings/002-three-dimensional-monotiling). For a fixed version, replace `main` with the commit being cited.
+**Suggested citation:** Roger Malcolm III. *Undecidability of translational monotiling in dimension three.* Legendary, Finding 002, version 0.1.1, 2026. Research assistance: GPT-6. [Repository note](https://github.com/LmeowLaunchpad/Legendary/tree/main/findings/002-three-dimensional-monotiling). For a fixed version, replace `main` with the commit being cited.
 
 | Version | Change |
 | :--- | :--- |
+| `0.1.1` | October 8, 2026: repair unsupported GitHub macros and protect inline math from Markdown parsing. Mathematical claims unchanged. |
 | `0.1.0` | October 8, 2026: initial proof draft, dependency record, finite-test and lattice-gas corollaries, prior-art audit, and reproducible reduced seed check. |
