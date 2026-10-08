@@ -7,7 +7,7 @@ Research by **Roger Malcolm III**, using **GPT-6**.
 A growing collection of research notes on substantial mathematical consequences. Each finding has a stable identifier, a readable overview, a detailed argument, primary references, and an explicit verification record.
 
 > [!IMPORTANT]
-> Finding 001 is **conditional on an upstream claimed theorem**. Finding 002 is a **proposed theorem with a complete proof draft**. The findings have undergone AI-assisted checks; no external peer review or formal verification of these downstream arguments is recorded here. Publication is not a claim of established novelty.
+> Findings 001 and 003 are **conditional on upstream claimed theorems**. Finding 002 is a **proposed theorem with a complete proof draft**. The findings have undergone AI-assisted checks; no external peer review or formal verification of these downstream arguments is recorded here. Publication is not a claim of established novelty.
 
 ## Findings
 
@@ -15,8 +15,17 @@ A growing collection of research notes on substantial mathematical consequences.
 | :--- | :--- | :--- | :--- |
 | **001** | [From a group-algebra counterexample to universal zero Rokhlin entropy](findings/001-rokhlin-entropy-collapse/) | Conditional corollary | AI-assisted checks; no external review recorded |
 | **002** | [Undecidability of translational monotiling in dimension three](findings/002-three-dimensional-monotiling/) | Proposed theorem; complete proof draft | AI-assisted checks; no external review recorded |
+| **003** | [Stationary Coulomb crystallization from Gaussian minimality](findings/003-stationary-coulomb-crystallization/) | Conditional theorem; complete proof draft | AI-assisted checks; no external review recorded |
 
-### Latest finding · 002
+### Latest finding · 003
+
+Conditional on the triangular lattice minimizing every Gaussian pair energy, a proposed stationary equality argument classifies **every stationary planar logarithmic Coulomb ground state** as a mixture of uniformly translated, rotated triangular lattices.
+
+The proof passes from an energy excess bound to an exact minimum separation, then uses local Voronoi rigidity. Consequences include infinite specific relative entropy of every ground state and the triangular structure of every zero-temperature cluster law of the stationary free-energy variational model. The note credits Petrache–Serfaty for the earlier universal-optimality-to-Coulomb connection and distinguishes the new conditional argument from its source premise.
+
+**[Read the overview →](findings/003-stationary-coulomb-crystallization/)** · [Proof](findings/003-stationary-coulomb-crystallization/proof.md) · [Verification record](findings/003-stationary-coulomb-crystallization/verification.md) · [References](findings/003-stationary-coulomb-crystallization/references.md)
+
+### Finding · 002
 
 A proposed effective reduction encodes arbitrary domino rules into **one finite tile of the whole three-dimensional integer lattice**. If the proof is correct, this gives the sharp dimension boundary: the translational monotiling problem is decidable in dimensions one and two, and undecidable in every fixed dimension at least three.
 

@@ -32,6 +32,22 @@
       "topics": ["discrete geometry", "computability", "translational tilings", "lattice gases", "mathematical logic", "incompleteness"],
       "upstream_repository": "https://github.com/openai/math",
       "upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a"
+    },
+    {
+      "id": "003",
+      "slug": "stationary-coulomb-crystallization",
+      "title": "Stationary Coulomb crystallization from Gaussian minimality",
+      "author": "Roger Malcolm III",
+      "research_assistance": ["GPT-6"],
+      "version": "0.1.0",
+      "research_date": "2026-10-08",
+      "first_published": "2026-10-08",
+      "mathematical_status": "conditional",
+      "review_status": "ai-assisted-checks-no-external-review-recorded",
+      "path": "findings/003-stationary-coulomb-crystallization/README.md",
+      "topics": ["mathematical physics", "point processes", "Coulomb energy", "crystallization", "relative entropy"],
+      "upstream_repository": "https://github.com/openai/math",
+      "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb"
     }
   ]
 }
