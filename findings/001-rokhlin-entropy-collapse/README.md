@@ -11,7 +11,7 @@ Research by **Roger Malcolm III**, using **GPT-6**.
 | Finding ID | `001` |
 | Author | Roger Malcolm III |
 | Research assistance | GPT-6 |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Research date | October 7, 2026 |
 | First published | October 8, 2026 |
 | Mathematical status | Conditional on the cited group-algebra counterexample |
@@ -25,15 +25,15 @@ Research by **Roger Malcolm III**, using **GPT-6**.
 
 Assume there are a finite field $K$, a finitely presented group $G$, and elements $a,b\in K[G]$ such that
 
-$$
+```math
 ab=1,\qquad ba\ne 1.
-$$
+```
 
 This is the input supplied by the cited characteristic-two manuscript. Let $T$ be Thompson's circle group and set $H=T\times G$. Then **$H$ is finitely presented, and every essentially free ergodic probability-measure-preserving action of $H$ on a standard probability space satisfies**
 
-$$
+```math
 h_H^{\mathrm{Rok}}(X,\mu)=0.
-$$
+```
 
 The quantifier includes actions that might otherwise have infinite entropy. In particular, it includes the Bernoulli action on $[0,1]^H$ with product Lebesgue measure. [Sources: the claimed premise](references.md#s1), [Seward's transfer results](references.md#s2), and [Thompson's group](references.md#s4).
 
@@ -68,11 +68,20 @@ Consider an isomorphism-invariant entropy $E$ on these actions. It cannot satisf
 
 Indeed, the binary generators above would give
 
-$$
-E(X,\mu)\le H_2(\varepsilon)
-=-\varepsilon\log_2\varepsilon-(1-\varepsilon)\log_2(1-\varepsilon)
-\longrightarrow 0.
-$$
+```math
+E(X,\mu)\le H_2(\varepsilon)\longrightarrow 0
+\qquad (\varepsilon\downarrow 0),
+```
+
+where the binary Shannon entropy is
+
+```math
+\begin{aligned}
+H_2(\varepsilon)
+&=-\varepsilon\log_2\varepsilon\\
+&\quad -(1-\varepsilon)\log_2(1-\varepsilon).
+\end{aligned}
+```
 
 Applied to the fair-bit Bernoulli shift, this contradicts normalization. This elementary deduction needs no continuity or monotonicity assumption. A universal entropy theory retaining one requirement would have to weaken the other or restrict the class of groups.
 
@@ -106,8 +115,9 @@ The source repository is pinned to commit [`adc7f1241b42e322a6451854ab7e4b4c146b
 
 Roger Malcolm III directed the initial investigation, which was researched and drafted using GPT-6, with separate agent passes over the implication and its interpretation. Those checks are recorded in [verification.md](verification.md), including prior-art search limits. They do not constitute external peer review.
 
-**Suggested citation:** Roger Malcolm III. *From a group-algebra counterexample to universal zero Rokhlin entropy.* Legendary, Finding 001, version 0.1.0, 2026. Research assistance: GPT-6. [Repository note](https://github.com/LmeowLaunchpad/Legendary/tree/main/findings/001-rokhlin-entropy-collapse). For a fixed version, replace `main` in that URL with the commit being cited.
+**Suggested citation:** Roger Malcolm III. *From a group-algebra counterexample to universal zero Rokhlin entropy.* Legendary, Finding 001, version 0.1.1, 2026. Research assistance: GPT-6. [Repository note](https://github.com/LmeowLaunchpad/Legendary/tree/main/findings/001-rokhlin-entropy-collapse). For a fixed version, replace `main` in that URL with the commit being cited.
 
 | Version | Change |
 | :--- | :--- |
+| `0.1.1` | October 8, 2026: repair GitHub math rendering, simplify wide layouts, and improve reference navigation. Mathematical claims unchanged. |
 | `0.1.0` | Initial public note: conditional theorem, proof, entropy-axiom obstruction, and verification record. |

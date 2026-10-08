@@ -8,15 +8,33 @@ The premise is the September 23 manuscript's existence of a finite field $K$ of 
 
 ## Checks performed
 
-| Item | Scope and outcome |
-| --- | --- |
-| Upstream statement | Read the manuscript's main theorem and relevant cellular-automaton transfer, and compared its scope with the formalization documentation. The full incidence, embedding, and construction proof was not independently audited. |
-| Lean evidence | Inspected `OAI.KaplanskyCounterexample.finitelyPresented_counterexample` in `OAI/RingTheory/DirectFiniteness/FinitelyPresented.lean`, the scope document, and Comparator configuration. The declaration includes finite presentability and the finite-field one-sided inverse. **No Lean build, Comparator run, or complete dependency/axiom audit was performed.** [Source S5](references.md#s5) |
-| Published entropy transfer | Checked Seward II's Theorems 1.10 and 1.12, Corollary 1.8, and Theorem 1.11 (= 6.7). They give finite $h_{\mathrm{sup}}(G)$ from the premise, followed by $h_{\mathrm{sup}}(T\times G)=0$. [Source S2](references.md#s2) |
-| Infinite-entropy case | Checked Corollary 7.7. This is essential because $h_{\mathrm{sup}}$ takes a supremum only over **finite** entropy values. The corollary also excludes infinite-entropy free ergodic actions when that supremum is zero. [Source S2](references.md#s2) |
-| Group hypotheses | Checked Thompson $T$'s finite presentability and circle model. Dyadic rotations give finite subgroups of unbounded order. A direct-product presentation adds finitely many cross-generator commutators. [Source S4](references.md#s4) |
-| Generators and interpretation | Checked the prescribed-distribution generator theorem and the measurable coding argument. The binary process has an almost-everywhere equivariant inverse; its coordinates are not asserted to be independent. [Source S3](references.md#s3) |
-| Additional consequences | Checked the elementary contradiction between Bernoulli-normalized entropy and an upper bound by every finite generator's Shannon entropy. Also checked the finite-neighborhood encoder obstruction by Fubini and the finite-transcript obstruction to exact recovery of a continuous random variable. |
+### Upstream statement
+
+Read the manuscript's main theorem and relevant cellular-automaton transfer, and compared its scope with the formalization documentation. The full incidence, embedding, and construction proof was not independently audited.
+
+### Lean evidence
+
+Inspected the [finitely presented counterexample declaration, scope document, and Comparator configuration](references.md#s5). The declaration includes finite presentability and the finite-field one-sided inverse. **No Lean build, Comparator run, or complete dependency/axiom audit was performed.** The exact declaration and file are identified in Source S5.
+
+### Published entropy transfer
+
+Checked Seward II's Theorems 1.10 and 1.12, Corollary 1.8, and Theorem 1.11 (= 6.7). They give finite $h_{\mathrm{sup}}(G)$ from the premise, followed by $h_{\mathrm{sup}}(T\times G)=0$. [Source S2](references.md#s2)
+
+### Infinite-entropy case
+
+Checked Corollary 7.7. This is essential because $h_{\mathrm{sup}}$ takes a supremum only over **finite** entropy values. The corollary also excludes infinite-entropy free ergodic actions when that supremum is zero. [Source S2](references.md#s2)
+
+### Group hypotheses
+
+Checked Thompson $T$'s finite presentability and circle model. Dyadic rotations give finite subgroups of unbounded order. A direct-product presentation adds finitely many cross-generator commutators. [Source S4](references.md#s4)
+
+### Generators and interpretation
+
+Checked the prescribed-distribution generator theorem and the measurable coding argument. The binary process has an almost-everywhere equivariant inverse; its coordinates are not asserted to be independent. [Source S3](references.md#s3)
+
+### Additional consequences
+
+Checked the elementary contradiction between Bernoulli-normalized entropy and an upper bound by every finite generator's Shannon entropy. Also checked the finite-neighborhood encoder obstruction by Fubini and the finite-transcript obstruction to exact recovery of a continuous random variable.
 
 These were separate checks within one GPT-6-assisted investigation. Agreement between assistants is not external mathematical validation. The downstream deduction has not been formalized in Lean here.
 

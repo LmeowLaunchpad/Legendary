@@ -4,7 +4,9 @@ Repository links below are pinned to `adc7f1241b42e322a6451854ab7e4b4c146bf78a`.
 
 <a id="s1"></a>
 
-**S1. Upstream premise.** *A Counterexample to Kaplansky's Direct-Finiteness Conjecture in Characteristic Two*, September 23, 2026, in the OpenAI math repository.
+## S1 · Upstream premise
+
+*A Counterexample to Kaplansky's Direct-Finiteness Conjecture in Characteristic Two*, September 23, 2026, in the OpenAI math repository.
 
 - [Pinned manuscript directory](https://github.com/openai/math/tree/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026).
 - [Main theorem and scope](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/01-introduction.tex).
@@ -14,7 +16,9 @@ This is the conditional input: a finitely presented group with a non-directly-fi
 
 <a id="s2"></a>
 
-**S2. Brandon Seward.** *Krieger's finite generator theorem for actions of countable groups II*. **Journal of Modern Dynamics 15 (2019), 1–39.** DOI: [10.3934/jmd.2019012](https://doi.org/10.3934/jmd.2019012).
+## S2 · Seward: finite generator theorem, Part II
+
+**Brandon Seward.** *Krieger's finite generator theorem for actions of countable groups II*. **Journal of Modern Dynamics 15 (2019), 1–39.** DOI: [10.3934/jmd.2019012](https://doi.org/10.3934/jmd.2019012).
 
 - [Publisher's record](https://www.aimsciences.org/article/doi/10.3934/jmd.2019012).
 - [Author manuscript](https://mathweb.ucsd.edu/~bseward/Files/krieger2.pdf).
@@ -24,7 +28,9 @@ Relevant items: Theorem 1.3 (a finite-block entropy deficit), Corollary 1.8 (the
 
 <a id="s3"></a>
 
-**S3. Brandon Seward.** *Krieger's finite generator theorem for actions of countable groups I*. **Inventiones Mathematicae 215 (2019), 265–310.** DOI: [10.1007/s00222-018-0826-9](https://doi.org/10.1007/s00222-018-0826-9).
+## S3 · Seward: finite generator theorem, Part I
+
+**Brandon Seward.** *Krieger's finite generator theorem for actions of countable groups I*. **Inventiones Mathematicae 215 (2019), 265–310.** DOI: [10.1007/s00222-018-0826-9](https://doi.org/10.1007/s00222-018-0826-9).
 
 - [Author manuscript](https://www.math.ucsd.edu/~bseward/Files/krieger1.pdf).
 - [arXiv:1405.3604](https://arxiv.org/abs/1405.3604).
@@ -33,7 +39,9 @@ Theorem 1.1 supplies a generating partition with prescribed probability vector w
 
 <a id="s4"></a>
 
-**S4. J. W. Cannon, W. J. Floyd, and W. R. Parry.** *Introductory notes on Richard Thompson's groups*. **L'Enseignement Mathématique 42 (1996), 215–256.**
+## S4 · Thompson's circle group
+
+**J. W. Cannon, W. J. Floyd, and W. R. Parry.** *Introductory notes on Richard Thompson's groups*. **L'Enseignement Mathématique 42 (1996), 215–256.**
 
 - [Digitized journal article](https://www.e-periodica.ch/digbib/view?pid=ens-001%3A1996%3A42%3A%3A416).
 - [Full article PDF, hosted by Emmanuel Breuillard](https://www.imo.universite-paris-saclay.fr/~emmanuel.breuillard/Cannon.pdf).
@@ -42,7 +50,9 @@ The introduction and Section 5 give the relevant facts about Thompson's circle g
 
 <a id="s5"></a>
 
-**S5. Upstream formalization evidence.** OpenAI math repository, the same pinned snapshot.
+## S5 · Upstream formalization evidence
+
+OpenAI math repository, the same pinned snapshot.
 
 - [Family 197 scope document](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/docs/197.md).
 - [Lean declaration and proof wrapper](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/RingTheory/DirectFiniteness/FinitelyPresented.lean).
