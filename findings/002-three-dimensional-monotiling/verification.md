@@ -1,6 +1,6 @@
 # Verification record
 
-[← Finding 002](README.md) · [Proof](proof.md) · [References](references.md)
+[← Finding 002](README.md) · [Proof](proof.md) · [Gödel supplement](godel.md) · [References](references.md)
 
 **Author:** Roger Malcolm III. **Research, drafting, and implementation assistance:** GPT-6, including several agents within one shared-model investigation. Separate agent checks are not independent external peer review; the agents shared sources, context, and possible failure modes.
 
@@ -29,6 +29,21 @@ This is not a decision problem about one permanently fixed tile, an efficiency c
 | Consequences | Checked the finite-obstruction compactness argument, the no-computable-uniform-obstruction-bound implication, and the separate pairwise lattice-gas reformulation. | Exact zero ground-state energy is distinguished from numerical approximation or practical material prediction. |
 
 The reverse compiler and the forward seed construction were each read by another agent assigned to seek failures. In particular, the audit challenged whether the seeds constrain only a diagonal, whether the offset choices create a circular inverse, whether the finite factor remains cyclic, and whether stacking preserves whole-lattice existence. No defect was found in those checks. That outcome records the scope and result of the investigation, not a guarantee of correctness.
+
+## Gödel supplement checks · version 0.2.0
+
+The [supplement](godel.md) applies established incompleteness machinery to the proposed compiler. Three agents within the same GPT-6 investigation separately examined the logical assumptions, source interfaces, and energy consequences. These remain internal AI-assisted checks with shared context, not external specialist review.
+
+| Component | Check performed | Limit of the check |
+| :--- | :--- | :--- |
+| Base theory | Traced the ordinary compiler proof through finite arithmetic, countable arrays, compactness, and the published lifting result. S3's Corollary 1.4 explicitly discusses provability and ZFC. | Conditional on the mathematical correctness of the proposed proof and cited inputs. No assertion that every weak arithmetic theory proves the full compiler equivalence. |
+| Rosser transfer | Checked effective proof enumeration, bounded comparison of proof codes, the nonhalting polarity, and transfer of both unprovability and unrefutability to the tiling sentence. | The input theory must be consistent, effectively axiomatized, and extend the stated base. Its consistency is assumed, not algorithmically tested. |
+| Finite tests and periods | Checked that each local test has a finite satisfying witness, while a fully periodic tiling would give a finite certificate of global tileability. | The universal statement does not follow from a collection of individual proofs. Partial periods and computable nonperiodic tilings are not excluded. |
+| Energy assertions | Distinguished the thermodynamic minimum from finite periodic minima. Checked the integer-energy lower bound $`u_L\ge L^{-3}`$, the upper bound $`u_L\le6rH/L`$ only for $`L>2r`$, and each finite-precision certificate through a periodic invariant measure. | No quantum spectral gap, finite-temperature transition, efficient numerical algorithm, or material realization follows. |
+| Effective catalogues | Checked uniform enumeration and the deductive closure of combined axioms. | The common base and consistency of the combined theory are required. The result does not cover every possible future axiom system at once. |
+| Prior work | Read S9 for constructive incompleteness and the Rosser distinction; checked the explicit Rosser monotiling paragraph in S5, Section 7, PDF page 25. | The logical method is established; the proposed distinction remains one tile in dimension three. No new priority certification is asserted. |
+
+The consistency-search construction and the Rosser construction were distinguished during review: a consistency encoding alone does not yield two-sided independence from mere consistency. The supplement uses the Rosser route. No particular independent tile's full coordinates were generated, and no proof-assistant verification was performed. The existing finite seed-map script checks neither the Gödel argument nor its independent tile.
 
 ## Reproducing the finite calculation
 

@@ -20,9 +20,9 @@ A growing collection of research notes on substantial mathematical consequences.
 
 A proposed effective reduction encodes arbitrary domino rules into **one finite tile of the whole three-dimensional integer lattice**. If the proof is correct, this gives the sharp dimension boundary: the translational monotiling problem is decidable in dimensions one and two, and undecidable in every fixed dimension at least three.
 
-The argument extends a cyclic encoding from OpenAI manuscript 155 and uses published theorems of Greenfeld–Tao and Meyerovitch–Sanadhya–Solomon. The note includes a full proof draft, a precise lattice-gas consequence, the prior-art comparison, and a reproducible reduced finite check.
+The argument extends a cyclic encoding from OpenAI manuscript 155 and uses published theorems of Greenfeld–Tao and Meyerovitch–Sanadhya–Solomon. The note includes a full proof draft, a precise lattice-gas consequence, the prior-art comparison, and a reproducible reduced finite check. A Gödel supplement derives conditional independence results and explains how every finite local test can be provable while whole-space tileability remains independent of the chosen axiom system.
 
-**[Read the overview →](findings/002-three-dimensional-monotiling/)** · [Proof](findings/002-three-dimensional-monotiling/proof.md) · [Verification record](findings/002-three-dimensional-monotiling/verification.md) · [References](findings/002-three-dimensional-monotiling/references.md)
+**[Read the overview →](findings/002-three-dimensional-monotiling/)** · [Proof](findings/002-three-dimensional-monotiling/proof.md) · [Gödel supplement](findings/002-three-dimensional-monotiling/godel.md) · [Verification record](findings/002-three-dimensional-monotiling/verification.md) · [References](findings/002-three-dimensional-monotiling/references.md)
 
 ### Featured finding · 001
 

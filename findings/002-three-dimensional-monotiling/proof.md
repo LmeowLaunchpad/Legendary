@@ -2,7 +2,7 @@
 
 **Roger Malcolm III · Research and drafting assistance using GPT-6**
 
-[Overview](README.md) · [Verification record](verification.md) · [References](references.md)
+[Overview](README.md) · [Gödel supplement](godel.md) · [Verification record](verification.md) · [References](references.md)
 
 **Status: proposed theorem, complete proof draft, pending external review.** The argument below supplies both directions of an effective reduction, including the finite compiler and the simultaneous realization of its two seeds. It has received AI-assisted source inspection and adversarial checks. It has not received independent specialist review or formal verification. Publication of this draft is not a correctness or priority certificate.
 
@@ -18,6 +18,7 @@ The compiler adapts the graph, dependence, activity, seed, common-solution, and 
 - [Stacking and the uniform lattice lift](#stacking-and-lift)
 - [Completion, logical complexity, and finite tests](#completion)
 - [A repulsive lattice-gas consequence](#lattice-gas)
+- [Gödel and Rosser consequences (supplement)](godel.md)
 - [Scope, attribution, and review status](#scope)
 
 <a id="main-theorem"></a>
@@ -1023,5 +1024,6 @@ AI-assisted checks covered the finite cyclic factor, both directions of the comp
 
 | Version | Date | Change |
 | :--- | :--- | :--- |
+| `0.2.0` | 2026-10-08 | Add a linked Gödel and Rosser supplement with conditional independence and periodic-energy consequences. The main reduction and its proofs are unchanged. |
 | `0.1.1` | 2026-10-08 | Replace unsupported GitHub operator macros and protect inline mathematics from Markdown parsing; mathematical claims unchanged. |
 | `0.1.0` | 2026-10-08 | Initial complete proof draft, with published inputs separated from the decorated cyclic compiler and its consequences. |

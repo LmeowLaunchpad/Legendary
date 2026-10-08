@@ -1,6 +1,6 @@
 # References
 
-[← Finding 002](README.md) · [Proof](proof.md) · [Verification](verification.md)
+[← Finding 002](README.md) · [Proof](proof.md) · [Gödel supplement](godel.md) · [Verification](verification.md)
 
 The repository source is pinned to commit `adc7f1241b42e322a6451854ab7e4b4c146bf78a`. ArXiv links identify the revisions used for theorem numbering. Other sources were checked during the 2026-10-08 investigation; an access date or a version identifier is not a mathematical certification.
 
@@ -50,6 +50,8 @@ Theorem 1.1 provides the tiling-equivalence lift from a quotient of a lattice to
 
 The finding checks that the finite construction can be performed with the input-dependent integer $`Q`$. It does not assert a new general dimension-lowering theorem or apply this lift to an arbitrary finite group with unbounded generator rank.
 
+For the [Gödel supplement](godel.md), Corollary 1.4 states a provability implication: in a first-order theory supporting the proof of correspondence (2), a proof that the lifted tiles tile the lattice yields a proof that the original tiles tile the quotient. The following paragraph identifies ZFC as sufficient for explicit finitely generated abelian groups and explicit quotient maps. Theorem 1.1 supplies the full tiling correspondence; the corollary itself is worded in one direction. These are established transfer results, not new logical machinery introduced here.
+
 <a id="s4"></a>
 
 ## S4 · Bhattacharya: the dimension-two decidability boundary
@@ -72,6 +74,8 @@ Theorem 1.1 and Corollary 1.2 establish periodicity and decidability for a singl
 - [Author's publications and research-notes page](https://xliu2022.github.io/).
 
 Theorem 1.1 already claims undecidability for one tile of the whole lattice in every fixed dimension above a sufficiently large constant. Section 6 uses a group with free part $`\mathbb Z^4`$; Section 7 gives an explicit large dimension bound. This is essential prior-claim context: Finding 002 does **not** claim the first fixed-dimensional monotiling undecidability result.
+
+Section 7, PDF page 25, also explicitly compiles a Rosser sentence into a monotile whose tileability is independent of ZFC, assuming ZFC is consistent, in those larger fixed dimensions. Its argument specifies a counterexample-search machine and a tiling equivalence provable in ZFC. Thus the Rosser-to-monotile connection already appears in this earlier dated draft. The [Gödel supplement](godel.md) applies established incompleteness arguments to the proposed dimension-three compiler; it does not claim a new general connection between tilings and Gödel incompleteness.
 
 The PDF is mutable. Its printed date is not an independently established first-public-upload date. The author's page places the work among preliminary research notes, under a general notice that some entries have not been fully polished or human-verified. Its complete proof was not independently certified in this investigation, and Finding 002 does not depend on its theorem. These qualifications do not erase its priority-relevant claim.
 
@@ -107,3 +111,19 @@ Remark 6.2 and Question 6.3 distinguish an unbounded generator-rank reduction fr
 - [Contemporary AMS description, January 1967 Notices](https://www.ams.org/journals/notices/196701/196701FullIssue.pdf).
 
 This is the classical source of the domino undecidability reduction. The contemporary publisher description explicitly records a domino set solvable precisely when the encoded machine never halts; S7 discusses the same direction. Finding 002 takes this classical input as cited rather than re-proving Berger's construction. The finite-obstruction compactness argument supplying the upper computability bound is given in the finding's proof.
+
+<a id="s9"></a>
+
+## S9 · Constructive incompleteness and the Rosser distinction
+
+**Saeed Salehi and Payam Seraji.** *On constructivity and the Rosser property: a closer look at some Gödelean proofs*. **Annals of Pure and Applied Logic 169(10) (2018), 971–980.** DOI: [10.1016/j.apal.2018.04.009](https://doi.org/10.1016/j.apal.2018.04.009). The version used for theorem numbering is **arXiv:1612.02549v2**, February 14, 2018.
+
+- [Versioned record](https://arxiv.org/abs/1612.02549v2).
+- [Versioned full text](https://arxiv.org/html/1612.02549v2).
+- [Author-hosted published article](https://saeedsalehi.ir/pdf/papers/APAL-2.pdf).
+
+The introduction distinguishes effective construction of a true unprovable sentence from independence under consistency alone. Theorem 2.2 gives a constructive Kleene argument; Theorem 2.3 demonstrates why that construction need not have the Rosser property. These distinctions explain the supplement's use of the Rosser construction for two-sided independence under consistency alone. The source does not establish the geometric compiler in Finding 002.
+
+**J. Barkley Rosser.** *Extensions of some theorems of Gödel and Church*. **The Journal of Symbolic Logic 1(3) (1936), 87–91.** DOI: [10.2307/2269028](https://doi.org/10.2307/2269028). [Publisher's record and extract](https://www.cambridge.org/core/journals/journal-of-symbolic-logic/article/abs/extensions-of-some-theorems-of-godel-and-church/0461E34DC1F219C459EE84CC2FA89068).
+
+Rosser's original result supplies the consistency-only incompleteness principle. The publisher's bibliographic record and extract were checked; its full original proof was not re-audited here. The supplement uses this established theorem and makes no claim to a new proof of Gödel's or Rosser's theorem. The prior monotiling application is separately credited in S5.

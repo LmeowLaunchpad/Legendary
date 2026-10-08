@@ -4,14 +4,14 @@
 
 Research by **Roger Malcolm III**, using **GPT-6**.
 
-[← All findings](../../README.md#findings) · [Detailed proof](proof.md) · [Verification record](verification.md) · [References](references.md)
+[← All findings](../../README.md#findings) · [Detailed proof](proof.md) · [Gödel supplement](godel.md) · [Verification record](verification.md) · [References](references.md)
 
 | Record | Value |
 | :--- | :--- |
 | Finding ID | `002` |
 | Author | Roger Malcolm III |
 | Research assistance | GPT-6 |
-| Version | `0.1.1` |
+| Version | `0.2.0` |
 | Research date | October 8, 2026 |
 | First published | October 8, 2026 |
 | Mathematical status | Proposed theorem; complete proof draft supplied |
@@ -81,6 +81,14 @@ Every local energy vanishes exactly when the occupied sites are the translation 
 
 The draft therefore implies undecidability of whether the minimum energy density in this class is **exactly zero**. It also proves that the energy density can be approximated to any prescribed positive additive error. Exact zero testing and finite-precision approximation are different tasks. [Derivation and scope](proof.md).
 
+### Gödel independence and finite simulations
+
+Conditional on the proposed reduction, for every consistent, effectively axiomatized extension of ZFC, a finite three-dimensional tile can be effectively specified whose whole-lattice tileability is true but neither provable nor refutable in that theory. Each individual finite local test still has a provable satisfying witness. No fully periodic tiling exists, since a finite unit cell would certify tileability.
+
+For the associated lattice gas, every finite periodic calculation has positive minimum energy, although the infinite-system minimum is zero. Arbitrarily accurate positive upper bounds can be certified within the theory while exact zero remains independent. Local tests permit boundary-crossing tiles; periodic calculations require a pattern that repeats forever.
+
+The [Gödel supplement](godel.md) gives the assumptions and proofs. It applies established Gödel and Rosser machinery; Li–Liu already state a Rosser monotiling consequence in a much larger fixed dimension. The potential refinement here is one tile in dimension three. No coordinate list for the particular independent tile has been generated. [Prior work](references.md#s5), [logical sources](references.md#s9).
+
 ## Prior work and proposed distinction
 
 The potential advance is **one tile of the whole lattice in fixed dimension three**.
@@ -108,9 +116,10 @@ The source construction is pinned to OpenAI math commit [`adc7f1241b42e322a64518
 
 Roger Malcolm III directed the investigation and the development of this finding. Research, drafting, source inspection, and separate adversarial checks were performed using GPT-6. These were multiple passes within the same AI-assisted investigation, not independent external peer review. The [verification record](verification.md) documents the checks and their limits.
 
-**Suggested citation:** Roger Malcolm III. *Undecidability of translational monotiling in dimension three.* Legendary, Finding 002, version 0.1.1, 2026. Research assistance: GPT-6. [Repository note](https://github.com/LmeowLaunchpad/Legendary/tree/main/findings/002-three-dimensional-monotiling). For a fixed version, replace `main` with the commit being cited.
+**Suggested citation:** Roger Malcolm III. *Undecidability of translational monotiling in dimension three.* Legendary, Finding 002, version 0.2.0, 2026. Research assistance: GPT-6. [Repository note](https://github.com/LmeowLaunchpad/Legendary/tree/main/findings/002-three-dimensional-monotiling). For a fixed version, replace `main` with the commit being cited.
 
 | Version | Change |
 | :--- | :--- |
+| `0.2.0` | October 8, 2026: add the conditional Gödel and Rosser supplement, finite-test and periodic-energy consequences, source attribution, and review record. Main reduction unchanged. |
 | `0.1.1` | October 8, 2026: repair unsupported GitHub macros and protect inline math from Markdown parsing. Mathematical claims unchanged. |
 | `0.1.0` | October 8, 2026: initial proof draft, dependency record, finite-test and lattice-gas corollaries, prior-art audit, and reproducible reduced seed check. |
