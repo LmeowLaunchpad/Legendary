@@ -1,0 +1,30 @@
+name: Correction or prior art
+description: Identify a mathematical issue, missing hypothesis, or earlier source.
+title: "[Finding ID] Brief description"
+body:
+  - type: input
+    id: finding
+    attributes:
+      label: Finding ID or link
+      placeholder: "001"
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Exact claim or proof step
+      description: Identify the statement and location involved.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Correction or earlier source
+      description: Explain the issue or prior result. Include primary references, theorem numbers, or a reproducible argument where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Suggested change
+      description: Optional proposed wording or repair.
