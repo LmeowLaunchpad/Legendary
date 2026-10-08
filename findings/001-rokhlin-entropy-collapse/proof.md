@@ -25,7 +25,7 @@ h^{\mathrm{Rok}}_\Gamma(X,\mu)
 =\inf_{\alpha\text{ generating}}\mathrm{H}_\mu(\alpha),
 ```
 
-where the infimum is over countable measurable generating partitions, modulo null sets. We use natural logarithms. Following Seward, let $h^{\mathrm{Rok}}_{\mathrm{sup}}(\Gamma)$ be the supremum of the finite values $h^{\mathrm{Rok}}_\Gamma(X,\mu)$ over all essentially free ergodic probability-preserving actions of $\Gamma$ on standard probability spaces.
+where the infimum is over countable measurable generating partitions, modulo null sets. We use natural logarithms. Following Seward, let $`h^{\mathrm{Rok}}_{\mathrm{sup}}(\Gamma)`$ be the supremum of the finite values $`h^{\mathrm{Rok}}_\Gamma(X,\mu)`$ over all essentially free ergodic probability-preserving actions of $\Gamma$ on standard probability spaces.
 
 The restriction to **finite** entropy in this definition matters; the proof below separately excludes infinite-entropy actions. The theorem numbering used here is that of the author PDF of Seward's Part II. [S2](references.md#s2)
 
@@ -41,7 +41,7 @@ has the following properties.
 
 1. Every essentially free ergodic probability-preserving $H$-action has Rokhlin entropy zero.
 2. Every nontrivial Bernoulli shift over $H$ has Rokhlin entropy zero, including the shift with uniform $[0,1]$ base.
-3. For every action in item 1 and every $0<\varepsilon<1$, there is a binary generating partition $\{A,X\setminus A\}$ with $\mu(A)=\varepsilon$.
+3. For every action in item 1 and every $0<\varepsilon<1$, there is a binary generating partition $`\{A,X\setminus A\}`$ with $\mu(A)=\varepsilon$.
 
 **Proof.** We first show that
 
@@ -151,7 +151,7 @@ The qualitative proof above is sufficient for the theorem. The following argumen
 Let $q=|K|$, and put
 
 ```math
-d=1-ba\ne0,\qquad F=\operatorname{supp}(d),\qquad n=|F|.
+d=1-ba\ne0,\qquad F=\mathrm{supp}(d),\qquad n=|F|.
 ```
 
 For $r=\sum_u r_u u\in K[G]$, define the continuous linear map
