@@ -11,6 +11,7 @@ Each finding should make its conclusion, dependencies, and evidence easy to insp
 | Status | Meaning |
 | :--- | :--- |
 | Conditional | A stated conclusion depends on a named assumption or upstream claim. |
+| Proposed theorem | A complete proof draft is supplied for a precise theorem and is offered for review. The label does not certify its correctness or novelty. |
 | Established from cited results | The argument relies on stated published inputs without an additional conjectural premise. This label alone is not a review certificate. |
 | Conjectural | The note proposes a claim and does not supply a complete deduction. |
 | Withdrawn | A recorded defect invalidates the stated conclusion; the history and reason remain available. |

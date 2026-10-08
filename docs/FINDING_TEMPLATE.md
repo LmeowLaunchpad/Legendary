@@ -9,7 +9,7 @@ One sentence stating the conclusion and its scope.
 | Research assistance | State tools and scope; use GPT-6 only where applicable |
 | Version | `0.1.0` |
 | Research date | YYYY-MM-DD |
-| Mathematical status | Conditional / established from cited results / conjectural |
+| Mathematical status | Conditional / proposed theorem / established from cited results / conjectural |
 | Review status | Specify checks actually completed |
 | Areas | Subject areas |
 
