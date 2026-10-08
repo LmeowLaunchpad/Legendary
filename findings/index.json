@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "findings": [
+    {
+      "id": "001",
+      "slug": "rokhlin-entropy-collapse",
+      "title": "From a group-algebra counterexample to universal zero Rokhlin entropy",
+      "author": "Roger Malcolm III",
+      "research_assistance": ["GPT-6"],
+      "version": "0.1.0",
+      "research_date": "2026-10-07",
+      "first_published": "2026-10-08",
+      "mathematical_status": "conditional",
+      "review_status": "ai-assisted-checks-no-external-review-recorded",
+      "path": "findings/001-rokhlin-entropy-collapse/README.md",
+      "topics": ["ergodic theory", "group rings", "Rokhlin entropy", "symbolic dynamics"],
+      "upstream_repository": "https://github.com/openai/math",
+      "upstream_commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a"
+    }
+  ]
+}
