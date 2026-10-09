@@ -121,6 +121,10 @@ Shanks "Fibonacci primitive roots" Sander density
 
 The outcome supports describing Theorems 1 and 2 and Corollary 3 as **potentially new conditional theorems**. It does not support calling the Euclidean criterion, the three-range structure of the proof, or the large-prime-factor device new, and it does not establish discovery priority. The search did not cover every thesis, unpublished manuscript, discussion, language or unindexed source, and no authors were contacted.
 
+## Publication checks
+
+The repository catalogue and machine-readable index were checked against the existing finding format. Author credit, assistance disclosure, source pins, relative links, explicit anchors, balanced math fences and portable macros were checked. All 719 mathematical expressions in the five pages touched by this publication (the root catalogue and the four pages of the finding: 21 display formulas and 698 inline expressions) were typeset by MathJax 3.2.2 in a local browser preview without a single error. The finite check script was run in isolated mode as recorded above. These are presentation checks, separate from mathematical verification.
+
 ## Scope of this version and remaining review
 
 The theorems use the three premises and nothing else from the source. The most valuable next checks are independent verification of the source's Theorem 1.2 and of the Type II estimate on which its Proposition 2.1 rests; external specialist review of Lemmas 6 and 7 and of the assembly, which are the new parts; and access to the full text of Narkiewicz's 2007 paper to settle exactly which small abelian fields it already covers. An extension to imaginary abelian fields would need a version of Hypothesis B with $`c=|\mu_K|`$; it is recorded in the proof as a direction, not a claim. Formalization of the downstream argument has not been supplied. This repository publication makes the precise claim, proof and dependencies available for that review.
