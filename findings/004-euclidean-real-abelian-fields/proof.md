@@ -2,7 +2,7 @@
 
 **Roger Malcolm III · Research and drafting assistance using Fable 5.1**
 
-**Version 0.1.0 · 8 October 2026**
+**Version 0.1.1 · 8 October 2026**
 
 [Overview](README.md) · [Verification record](verification.md) · [References](references.md)
 
@@ -33,7 +33,7 @@ Weinberger proved the Euclidean conclusion in 1973 under the generalized Riemann
 Throughout, $`K`$ is a real abelian number field of degree $`n=[K:\mathbb Q]\ge2`$, with conductor $`f`$, ring of integers $`\mathcal O_K`$ and unit group $`\mathcal O_K^{\times}`$. By the Kronecker–Weber theorem $`K\subset\mathbb Q(\zeta_f)`$, and a rational prime $`p\nmid f`$ splits completely in $`K`$ exactly when its residue class lies in the subgroup
 
 ```math
-H_K=\ker\bigl((\mathbb Z/f\mathbb Z)^{\times}\to\operatorname{Gal}(K/\mathbb Q)\bigr).
+H_K=\ker\bigl((\mathbb Z/f\mathbb Z)^{\times}\to\mathrm{Gal}(K/\mathbb Q)\bigr).
 ```
 
 Since $`K`$ is real, complex conjugation acts trivially on it, so $`-1\in H_K`$.
@@ -165,7 +165,7 @@ The point of Lemma 2 is that the unit contributes nothing to the discriminant. F
 \zeta_{K_qF_q}(s)=\prod_{\chi}L_{F_q}(s,\chi),
 ```
 
-the product over the characters of $`\operatorname{Gal}(K_qF_q/F_q)`$. Each factor is a finite-order Hecke $`L`$-function of the cyclotomic field $`F_q\ni\zeta_{12}`$, hence zero-free in $`\Re s>1-\theta_0`$ by Hypothesis A, so $`\zeta_{K_qF_q}`$ is zero-free there. Next, $`K_qF_q/K_q`$ is Galois with group isomorphic to $`\operatorname{Gal}\bigl(F_q/(F_q\cap K_q)\bigr)`$, a subgroup of the abelian group $`\operatorname{Gal}(F_q/\mathbb Q)`$, so
+the product over the characters of $`\mathrm{Gal}(K_qF_q/F_q)`$. Each factor is a finite-order Hecke $`L`$-function of the cyclotomic field $`F_q\ni\zeta_{12}`$, hence zero-free in $`\Re s>1-\theta_0`$ by Hypothesis A, so $`\zeta_{K_qF_q}`$ is zero-free there. Next, $`K_qF_q/K_q`$ is Galois with group isomorphic to $`\mathrm{Gal}\bigl(F_q/(F_q\cap K_q)\bigr)`$, a subgroup of the abelian group $`\mathrm{Gal}(F_q/\mathbb Q)`$, so
 
 ```math
 \zeta_{K_qF_q}(s)=\zeta_{K_q}(s)\prod_{\psi\ne1}L_{K_q}(s,\psi)
@@ -210,11 +210,11 @@ Counting prime ideals of $`K`$ rather than rational primes is what makes Lemma 4
 
 ## 6. The progression and the unit minus one
 
-**Lemma 6.** Let $`M=\operatorname{lcm}(8,f)`$. There is an integer $`u`$ with $`\gcd(u,M)=1`$, $`u\equiv3\pmod4`$ and $`u\equiv-1\pmod f`$ such that $`c=2`$ and $`u`$ satisfy the hypotheses of Hypothesis B, namely $`2\mid u-1`$ and $`\gcd\bigl((u-1)/2,\,M/2\bigr)=1`$. Every prime $`p\equiv u\pmod M`$ satisfies $`p\equiv3\pmod4`$, $`p\nmid f`$, and $`p`$ splits completely in $`K`$.
+**Lemma 6.** Let $`M=\mathrm{lcm}(8,f)`$. There is an integer $`u`$ with $`\gcd(u,M)=1`$, $`u\equiv3\pmod4`$ and $`u\equiv-1\pmod f`$ such that $`c=2`$ and $`u`$ satisfy the hypotheses of Hypothesis B, namely $`2\mid u-1`$ and $`\gcd\bigl((u-1)/2,\,M/2\bigr)=1`$. Every prime $`p\equiv u\pmod M`$ satisfies $`p\equiv3\pmod4`$, $`p\nmid f`$, and $`p`$ splits completely in $`K`$.
 
 *Proof.* Choose $`u\equiv-1\pmod f`$ together with $`u\equiv3`$ or $`7\pmod8`$; the two congruences are compatible by the Chinese remainder theorem (if $`8\mid f`$ then $`u\equiv-1\equiv7\pmod8`$ already; if $`4\mid f`$ but $`8\nmid f`$ then $`u\equiv-1\equiv3\pmod4`$ and either lift works; if $`f`$ is odd, take $`u\equiv3\pmod8`$). Then $`u\equiv3\pmod4`$, so $`(u-1)/2`$ is odd. Every odd prime $`\ell\mid M`$ divides $`f`$, and $`u\equiv-1\not\equiv1\pmod\ell`$, so $`\ell\nmid(u-1)/2`$. Hence $`\gcd\bigl((u-1)/2,M/2\bigr)=1`$ and $`\gcd(u,M)=1`$.
 
-If $`p\equiv u\pmod M`$ then $`p\equiv-1\pmod f`$. The Frobenius of $`p`$ in $`\operatorname{Gal}(\mathbb Q(\zeta_f)/\mathbb Q)\cong(\mathbb Z/f\mathbb Z)^{\times}`$ is the class of $`-1`$, which is complex conjugation. Complex conjugation is trivial on the real field $`K`$, so $`p`$ splits completely in $`K`$; equivalently $`-1\in H_K`$. $`\blacksquare`$
+If $`p\equiv u\pmod M`$ then $`p\equiv-1\pmod f`$. The Frobenius of $`p`$ in $`\mathrm{Gal}(\mathbb Q(\zeta_f)/\mathbb Q)\cong(\mathbb Z/f\mathbb Z)^{\times}`$ is the class of $`-1`$, which is complex conjugation. Complex conjugation is trivial on the real field $`K`$, so $`p`$ splits completely in $`K`$; equivalently $`-1\in H_K`$. $`\blacksquare`$
 
 For $`K=\mathbb Q(\sqrt5)`$ one may take $`M=40`$ and $`u=19`$; for $`K=\mathbb Q(\sqrt2)`$, $`M=8`$ and $`u=7`$. This is the only place where the hypothesis that $`K`$ is real is used.
 
@@ -231,7 +231,7 @@ Lemma 7 is the device that handles the prime $`2`$. In the source, the prime $`2
 
 ## 7. Proof of the counting theorem
 
-Fix $`K`$ and a primitive unit $`\varepsilon`$, and take $`(M,c,u)=(\operatorname{lcm}(8,f),2,u)`$ from Lemma 6. For sufficiently large $`x`$, let $`S(x)`$ be the set of primes supplied by Hypothesis B: $`|S(x)|\gg_K x/L^2`$, every $`p\in S(x)`$ lies in $`(x,2x)`$, satisfies $`p\equiv u\pmod M`$, and has $`p-1=2rQ`$ with $`Q>x^{0.9}`$ prime and all prime factors of $`r`$ in $`[\exp(L^{0.1}),\exp(L^{0.3})]`$. By Lemma 6 each such $`p`$ is $`\equiv3\pmod4`$ and splits completely in $`K`$, so $`(\mathcal O_K/\mathfrak p)^{\times}=\mathbb F_p^{\times}`$ for each of the $`n`$ primes $`\mathfrak p\mid p`$.
+Fix $`K`$ and a primitive unit $`\varepsilon`$, and take $`(M,c,u)=(\mathrm{lcm}(8,f),2,u)`$ from Lemma 6. For sufficiently large $`x`$, let $`S(x)`$ be the set of primes supplied by Hypothesis B: $`|S(x)|\gg_K x/L^2`$, every $`p\in S(x)`$ lies in $`(x,2x)`$, satisfies $`p\equiv u\pmod M`$, and has $`p-1=2rQ`$ with $`Q>x^{0.9}`$ prime and all prime factors of $`r`$ in $`[\exp(L^{0.1}),\exp(L^{0.3})]`$. By Lemma 6 each such $`p`$ is $`\equiv3\pmod4`$ and splits completely in $`K`$, so $`(\mathcal O_K/\mathfrak p)^{\times}=\mathbb F_p^{\times}`$ for each of the $`n`$ primes $`\mathfrak p\mid p`$.
 
 Call $`p\in S(x)`$ **bad** if $`i_{\mathfrak p}>1`$ for some $`\mathfrak p\mid p`$. For a bad $`p`$ choose such a $`\mathfrak p`$ and a prime $`q\mid i_{\mathfrak p}`$. By Lemma 7, $`q`$ is odd and $`\varepsilon^{(p-1)/q}\equiv1\pmod{\mathfrak p}`$; since $`p-1=2rQ`$ and $`q`$ is odd, $`q\mid rQ`$. Two cases.
 

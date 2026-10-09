@@ -2,7 +2,7 @@
 
 [← Finding 004](README.md) · [Proof](proof.md) · [Verification record](verification.md)
 
-**Author:** Roger Malcolm III. **Research assistance:** Fable 5.1. **Version:** `0.1.0`.
+**Author:** Roger Malcolm III. **Research assistance:** Fable 5.1. **Version:** `0.1.1`.
 
 The proposed contribution is the transfer of the manuscript's prime-construction and uniform-splitting machinery from integer bases to units of real abelian fields, and the resulting conditional Euclidean and primitive-root theorems. The analytic inputs, the Euclidean criterion, and the earlier conditional and partial results are credited below. A source's presence here does not mean the present investigation independently verified its entire proof.
 

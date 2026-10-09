@@ -4,7 +4,7 @@
 
 **Author:** Roger Malcolm III. **Research, drafting, and implementation assistance:** Fable 5.1, as four exploring agents and one verifying agent within one shared-model investigation. Separate agent checks are not independent external peer review; the agents shared sources, context, and possible failure modes.
 
-**Investigation date:** 2026-10-08 (America/New_York). **Version:** `0.1.0`. **Source snapshot:** `fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb` of `openai/math`.
+**Investigation date:** 2026-10-08 (America/New_York). **Version:** `0.1.1`. **Source snapshot:** `fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb` of `openai/math`.
 
 **Mathematical record:** a complete conditional proof draft is supplied. **Review record:** inspection of the three source statements and of the parts of the source proofs that determine their dependencies, a step-by-step adversarial check of the downstream argument by a separate agent, two independent finite computations, and a prior-art search. No external human mathematical review, Lean formalization, or proof-assistant verification of this downstream argument has been completed. The analytic source premises have not been independently certified.
 

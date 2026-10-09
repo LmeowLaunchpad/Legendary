@@ -11,7 +11,7 @@ Research by **Roger Malcolm III**, using **Fable 5.1**.
 | Finding ID | `004` |
 | Author | Roger Malcolm III |
 | Research assistance | Fable 5.1 |
-| Version | `0.1.0` |
+| Version | `0.1.1` |
 | Research date | October 8, 2026 |
 | First published | October 8, 2026 |
 | Mathematical status | Conditional theorem; complete proof draft supplied |
@@ -97,8 +97,9 @@ The source premises are pinned to OpenAI math commit [`fd4aeeb2ee4fc729c18d98444
 
 Roger Malcolm III directed the investigation and the development of this finding. Research, drafting, source inspection, and separate adversarial checks were performed using Fable 5.1: four exploring agents, one of which found and wrote the argument, and one verifying agent that checked every step against the source text and the literature, all within one shared-model investigation. These were multiple passes within the same AI-assisted investigation, not independent external peer review. The [verification record](verification.md) documents the checks and their limits.
 
-**Suggested citation:** Roger Malcolm III. *Euclidean rings of integers in real abelian fields from uniform primitive roots.* Legendary, Finding 004, version 0.1.0, 2026. Research assistance: Fable 5.1. [Repository note](https://github.com/LmeowLaunchpad/Legendary/tree/main/findings/004-euclidean-real-abelian-fields). For a fixed version, replace `main` with the commit being cited.
+**Suggested citation:** Roger Malcolm III. *Euclidean rings of integers in real abelian fields from uniform primitive roots.* Legendary, Finding 004, version 0.1.1, 2026. Research assistance: Fable 5.1. [Repository note](https://github.com/LmeowLaunchpad/Legendary/tree/main/findings/004-euclidean-real-abelian-fields). For a fixed version, replace `main` with the commit being cited.
 
 | Version | Change |
 | :--- | :--- |
+| `0.1.1` | October 8, 2026: replace a macro that GitHub's math renderer does not allow; mathematical claims unchanged. |
 | `0.1.0` | October 8, 2026: initial conditional proof draft, counting theorem, Euclidean and Fibonacci consequences, source attribution, dependency record, reproducible finite check, and verification record. |
