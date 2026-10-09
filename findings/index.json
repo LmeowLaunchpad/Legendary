@@ -48,6 +48,22 @@
       "topics": ["mathematical physics", "point processes", "Coulomb energy", "crystallization", "relative entropy"],
       "upstream_repository": "https://github.com/openai/math",
       "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb"
+    },
+    {
+      "id": "004",
+      "slug": "euclidean-real-abelian-fields",
+      "title": "Euclidean rings of integers in real abelian fields from uniform primitive roots",
+      "author": "Roger Malcolm III",
+      "research_assistance": ["Fable 5.1"],
+      "version": "0.1.0",
+      "research_date": "2026-10-08",
+      "first_published": "2026-10-08",
+      "mathematical_status": "conditional",
+      "review_status": "ai-assisted-checks-no-external-review-recorded",
+      "path": "findings/004-euclidean-real-abelian-fields/README.md",
+      "topics": ["algebraic number theory", "analytic number theory", "Euclidean domains", "Artin's conjecture", "primitive roots", "real quadratic fields"],
+      "upstream_repository": "https://github.com/openai/math",
+      "upstream_commit": "fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb"
     }
   ]
 }
